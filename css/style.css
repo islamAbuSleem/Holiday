@@ -1,0 +1,631 @@
+button{
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+/*start carousal */
+.carousel-indicators li{
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 6.5px;
+}
+.search{
+    height: 300px;
+    width: 350px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 99;
+    top: 22%;
+    padding-left: 20px
+}
+.search h5{
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+}
+
+.search #dest{
+    width: 308px;
+    margin-top: 4px;
+    background-color: #bbb;
+    border: none;
+    height: 34px;
+    border-radius: 2px;
+}
+
+.search span{
+    margin-top: 13px;
+    display: inline-block;
+    color: #555;
+}
+.search form .check-in,
+.search form .check-out{
+    width: 145px;
+    background-color: #bbb;
+    border: none;
+    border-radius: 2px;
+    margin-top: 55px;
+    height: 34px;
+
+}
+.search form input:nth-child(6){
+  margin-left: 3%;
+}
+.search form span:nth-child(3){
+    position: absolute;
+    left: 20px;
+    top: 48%;
+}
+.search form span:nth-child(5){
+    position: absolute;
+    left: 184px;
+    top: 48%;
+}
+.search form button{
+    margin-top: 15px;
+    width: 308px;
+    height: 50px;
+    background-color: #555;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 27px;
+}
+.search form button:hover{
+    background-color: #333;
+}
+/*end carousal*/
+
+/* start fantastic places */
+.fantastic{
+    color: #333;
+    padding-top: 30px;
+    background-color: #eee;
+    padding-bottom: 3%;
+    overflow: hidden;
+}
+.fantastic .container > h2{
+    font-weight: 600;
+    font-size: 28px;
+}
+.fantastic .holiday{
+    background-color: #fff;
+    height: 300px;
+    margin-top: 30px;
+}
+.fantastic .holiday .image img{
+    margin: 14px;
+    margin-left: 0px;
+    width: 360px;
+    height: 270px;
+}
+.fantastic .holiday h2{
+    margin-top: 10%;
+}
+.fantastic .holiday{
+    margin-top: 22px;
+}
+.fantastic .holiday .fa-users{
+    margin-top: 7%;
+}
+.fantastic .holiday span{
+    margin-left: 10px;
+}
+.fantastic .holiday h5{
+    margin-top: 78px;
+    font-weight: 500;
+    text-align: right;
+    margin-right: 8%;
+}
+.fantastic .holiday h1{
+    font-weight: 700;
+    font-size: 27px;
+    text-align: right;
+    margin-top: 39px;
+    margin-right: 8%;
+}
+.fantastic .holiday button{
+    width: 200px;
+    margin-left: 14%;
+    margin-top: 20px;
+    height: 48px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 23px;
+    border-radius: 2px;
+}
+.fantastic .holiday button:hover{
+    background-color: #333;
+}
+
+/* end fantastic places */
+/* start map */
+#map{
+   height: 400px;
+   width: 100%;
+   margin-top: 50px;
+}
+
+/*end map*/
+/* start fantastic places to see */
+.places-to-see{
+    margin-bottom: 8%
+    color: #333;
+    overflow: hidden;
+}
+.places-to-see h2{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.places-to-see .row{
+    margin-top: 40px;
+    overflow: hidden
+}
+.places-to-see .row img{
+    height: 200px;
+    width: 278px;
+}
+.places-to-see .row span{
+    display: inherit;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.places-to-see .row h4{
+    font-weight: 700
+}
+.places-to-see .row .see{
+    margin-bottom: 40px;
+}
+.places-to-see .row .see a{
+    color: #333;
+    text-decoration: underline;
+    transition: all .3s ease-in-out;
+}
+.places-to-see .row .see a:hover{
+    color: #888;
+}
+/* end fantastic places to see*/
+
+/*start footer*/
+.footer{
+    background-color: #222;
+    color: #fff;
+    padding-bottom: 7%;
+    overflow: hidden;
+    padding-top: 5%;
+}
+.footer h3{
+	margin-top9%;
+}
+.footer .foot-div .con{
+  margin-top: 9%;
+}
+.footer .foot-div .con li{
+  margin-bottom: 10px
+}
+.footer .foot-div img{
+  width: 100%;
+}
+.footer .foot-div .most{
+  margin-top: 7%;
+}
+.footer .reco{
+  margin-top: 5%;
+}
+.footer .reco li {
+  margin-bottom: 10px;
+}
+.footer .reco li:hover{
+  color: #888;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/*end footer*/
+
+/* start copyright */
+.copy{
+  padding: 10px;
+  background-color: #444;
+  color:#fff;
+}
+/* start copyright */
+#load{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 99999;
+
+}
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 9999;
+}
+
+.loading-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+.loading-text span {
+  display: inline-block;
+  margin: 0 5px;
+  color: #fff;
+  font-family: 'Quattrocento Sans', sans-serif;
+}
+.loading-text span:nth-child(1) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+          animation: blur-text 1.5s 0s infinite linear alternate;
+}
+.loading-text span:nth-child(2) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+          animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+.loading-text span:nth-child(3) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+          animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+.loading-text span:nth-child(4) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+          animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+.loading-text span:nth-child(5) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+          animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+.loading-text span:nth-child(6) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+          animation: blur-text 1.5s 1s infinite linear alternate;
+}
+.loading-text span:nth-child(7) {
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+          animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
+
+@-webkit-keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+  100% {
+    -webkit-filter: blur(4px);
+            filter: blur(4px);
+  }
+}
+
+/*media query*/
+@media (max-width:576px){
+    .carousel-indicators li{
+      height: 6px;
+      width: 6px;
+    }
+    .search{
+        height: 279px;
+        width: 100%;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 5%;
+    }
+    .search h5{
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 6px;
+      padding-left: 0px;
+      border-radius: 9999em;
+      margin-right: 5%;
+    }
+    .search form{
+
+      width: 100%;
+      margin-left: 16%;
+    }
+    .search #dest{
+        display: block;
+        width: 70%;
+    }
+    .search form .check-in,
+    .search form .check-out{
+        margin-top: 41px;
+        width: 33%;
+
+
+    }
+    .search form span:nth-child(3){
+      top: 51%;
+      left: 21%;
+    }
+    .search form span:nth-child(5){
+      left: 58%;
+      top: 51%;
+    }
+    .search form button{
+        width: 70%;
+        font-size: 24px;
+        display: block;
+    }
+    .fantastic .container > h2{
+        font-size: 24px;
+    }
+    .fantastic .holiday{
+        height: 431px
+    }
+    .fantastic .holiday .image img{
+        width: 100%;
+        height: 149px;
+    }
+    .fantastic .holiday h2{
+        margin-top: -1%;
+        font-size: 21px;
+        margin-left: 28%;
+    }
+    .fantastic .holiday p{
+        font-size: 11px;
+    }
+    .fantastic .holiday .fa-users{
+        margin-top: 0
+    }
+    .fantastic .holiday h5{
+        margin-top: 6px;
+        font-weight: 500;
+        text-align: left;
+    }
+    .fantastic .holiday h1{
+        margin-top: -32px;
+    }
+    .fantastic .holiday button{
+        margin-left: 21%;
+    }
+    .places-to-see h2{
+        font-size: 24px;
+    }
+    .places-to-see .row img{
+        width: 100%;
+    }
+
+}
+
+
+
+@media (min-width:576px) and (max-width:767px)
+{
+  .carousel-indicators li{
+    height: 8px;
+    width: 8px;
+  }
+    .search{
+        height: 279px;
+        width: 100%;
+        position: relative;
+        margin: auto;
+        overflow: hidden;
+        margin-bottom: 40px;
+    }
+    .search h5{
+      text-align: center;
+    border: 1px solid #ccc;
+    padding: 6px;
+    padding-left: 0px;
+    border-radius: 9999em;
+    }
+    .search form{
+
+      width: 100%;
+      margin-left: 16%;
+    }
+    .search #dest{
+        display: block;
+        width: 70%;
+    }
+    .search form .check-in,
+    .search form .check-out{
+        margin-top: 41px;
+        width: 33%;
+
+    }
+    .search form span:nth-child(3){
+      top: 51%;
+      left: 19%;
+    }
+    .search form span:nth-child(5){
+      left: 54%;
+      top: 51%;
+    }
+    .search form button{
+        width: 70%;
+        font-size: 24px;
+        display: block;
+    }
+    .fantastic .container > h2{
+        font-size: 22px;
+    }
+    .fantastic .container >span{
+        font-size: 15px;
+    }
+    .fantastic .holiday .image img{
+        width: 125px;
+        height: 165px;
+    }
+    .fantastic .holiday h2{
+        margin-top: 5%;
+        font-size: 21px;
+    }
+    .fantastic .holiday p{
+        font-size: 12px;
+    }
+    .fantastic .holiday span{
+        margin-left: 4px;
+        font-size: 12px;
+    }
+    .fantastic .holiday .fa-users{
+        margin-top: 0
+    }
+    .fantastic .holiday h5{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .fantastic .holiday h1{
+        font-size: 19px;
+        margin-top: 21px;
+    }
+    .fantastic .holiday button{
+        width: 98px;
+        margin-left: 0%;
+        height: 41px;
+        font-size: 15px;
+    }
+    .fantastic .holiday{
+        height: 194px;
+    }
+    .places-to-see h2{
+        font-size: 22px;
+    }
+    .places-to-see .row img{
+        width: 250px;
+    }
+    .places-to-see .row span{
+        font-size: 14px;
+    }
+    .places-to-see .row h4{
+        font-size: 20px;
+    }
+    .places-to-see .row p{
+        font-size: 14px;
+    }
+    .places-to-see{
+        height: 1400px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+    .w-100{
+        height: 400px;
+    }
+    .search{
+        height: 264px;
+        width: 304px;
+        top: 6%;
+    }
+    .search #dest{
+        width: 262px;
+    }
+    .search form .check-in,
+     .search form .check-out{
+         width:122px;
+         margin-top: 31px;
+     }
+     .search form span:nth-child(3){
+         top: 46%;
+     }
+     .search form span:nth-child(5){
+       left: 51%;
+       top: 46%;
+     }
+     .search form button{
+         width: 261px;
+     }
+     .fantastic .holiday .image img{
+        width: 223px;
+        height: 219px;
+     }
+     .fantastic .holiday h2{
+        margin-top: 10%;
+        font-size: 26px;
+     }
+     .fantastic .holiday .fa-users{
+         margin-top: 0
+     }
+     .fantastic .holiday p{
+         font-size: 15px;
+     }
+     .fantastic .holiday h5{
+        margin-top: 46px;
+     }
+     .fantastic .holiday button{
+        width: 115px;
+        font-size: 19px
+     }
+     .fantastic .holiday h1{
+         font-size: 24px;
+     }
+     .fantastic .holiday{
+         height: 250px;
+     }
+     .places-to-see .row img{
+        width: 214px;
+     }
+     .places-to-see .row span{
+        font-size: 14px;
+     }
+     .places-to-see .row h4{
+         font-size: 20px;
+     }
+    .places-to-see .row p{
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    .fantastic .holiday .image img{
+        width: 300px;
+    }
+    .fantastic .holiday button{
+        width: 171px;
+    }
+
+}
